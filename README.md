@@ -19,4 +19,4 @@ Dataset contains many features includes:
 - Use evaluation metrics such as accuracy, precision, recall, and F1-score to assess model performance.
 ## Installation
 - Install the required dependencies:
-pip install -r requirements.txt
+  - pip install -r requirements.txt
