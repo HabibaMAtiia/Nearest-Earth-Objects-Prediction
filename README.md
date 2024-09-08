@@ -20,3 +20,13 @@ Dataset contains many features includes:
 ## Installation
 - Install the required dependencies:
   - pip install -r requirements.txt
+## Data Preprocessing
+- Missing data was handled by imputation or removal.
+- Outliers was handled by IQR technique.
+- Features was scaled using MinMaxScaler for model compatibility.
+- Categorical features were encoded for machine learning model input.
+## Exploratory Data Analysis (EDA)
+- Visualized the distribution of NEO features (e.g., miss_distance, relative_velocity) to understand Data Spread.
+- Examined data ranges with box plots between features and whether the NEO is hazardous.
+- Visualized data density with violin plots between features and target.
+- Examined features correlation matrix.
