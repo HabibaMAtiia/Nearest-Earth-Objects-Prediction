@@ -45,6 +45,8 @@ Dataset contains 338200 records. Its features includes:
   - Recall: Sensitivity to identifying hazardous NEOs.
   - F1-score: Harmonic mean of precision and recall.
   - ROC
+  ## Model Optimization
+  - Hyperparameters Tuning using RandomizedSearchCV to avoid model overfitting.
 ## Results
 - The Random Forest model achieved the following performance:
   - Accuracy: 92%
