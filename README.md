@@ -38,6 +38,8 @@ Dataset contains 338200 records. Its features includes:
   - Logistic Regression
   - KNN
   - XGBoost
+  - Gradient Boosting
+  - Voting Classifier
 ## Evaluation Metrics
 - We used the following metrics to evaluate model performance:
   - Accuracy: Percentage of correctly predicted NEOs.
