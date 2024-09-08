@@ -17,3 +17,6 @@ Dataset contains many features includes:
 - Perform exploratory data analysis to gain insights into NEO characteristics.
 - Train and evaluate multiple machine learning models to classify NEOs as hazardous or non-hazardous.
 - Use evaluation metrics such as accuracy, precision, recall, and F1-score to assess model performance.
+## Installation
+- Install the required dependencies:
+  pip install -r requirements.txt
