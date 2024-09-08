@@ -54,7 +54,7 @@ Dataset contains many features includes:
 ## Conclusion
 - The Random Forest model was able to accurately predict hazardous NEOs, making it a reliable model for planetary defense applications. Further tuning and data enrichment could improve the model's predictive power.
 ## References
-NASA's NEO dataset: https://www.kaggle.com/datasets/ivansher/nasa-nearest-earth-objects-1910-2024/data
-Scikit-learn Documentation: https://scikit-learn.org/stable/
-XGBoost Documentation: https://xgboost.readthedocs.io/en/stable/
+- NASA's NEO dataset: https://www.kaggle.com/datasets/ivansher/nasa-nearest-earth-objects-1910-2024/data
+- Scikit-learn Documentation: https://scikit-learn.org/stable/
+- XGBoost Documentation: https://xgboost.readthedocs.io/en/stable/
 
