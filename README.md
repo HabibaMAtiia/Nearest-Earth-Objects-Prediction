@@ -27,13 +27,14 @@ Dataset contains 338,200 records. Its features includes:
 - Outliers was handled by IQR technique.
 - Features was scaled using MinMaxScaler for model compatibility.
 - Categorical features were encoded for machine learning model input.
+- Handling Imbalanced Classes by Oversampling technique (SMOTE: Synthetic Minority Over-sampling Technique).
 ## Exploratory Data Analysis (EDA)
 - Visualized the distribution of NEO features (e.g., miss_distance, relative_velocity) to understand Data Spread.
 - Examined data ranges with box plots between features and whether the NEO is hazardous.
 - Visualized data density with violin plots between features and target.
 - Examined features correlation matrix.
-## Feature Selection
-- We selected key features such as absolute_magnitude, relative_velocity and miss_distance for training, as these attributes are crucial in determining a NEO's potential hazard level.
+## Feature Extraction
+- Using PCA to remove collinearity by transforming the original features into a new set of uncorrelated variables (principal components).
 ## Modeling Approach
 - We evaluated several classification algorithms:
   - Random Forest
@@ -42,6 +43,7 @@ Dataset contains 338,200 records. Its features includes:
   - XGBoost
   - Gradient Boosting
   - Voting Classifier
+  - SVM
 ## Evaluation Metrics
 - We used the following metrics to evaluate model performance:
   - Accuracy: Percentage of correctly predicted NEOs.
@@ -49,7 +51,6 @@ Dataset contains 338,200 records. Its features includes:
   - Recall: Sensitivity to identifying hazardous NEOs.
   - F1-score: Harmonic mean of precision and recall.
   - Learning Curve
-  - ROC
   ## Model Optimization
   - Hyperparameters Tuning using RandomizedSearchCV to avoid model overfitting.
 ## Results
@@ -63,7 +64,7 @@ Dataset contains 338,200 records. Its features includes:
 ## Future Work
 - Explore deep learning approaches for enhanced performance.
 - Integrate real-time data for continuous model updates.
-- Develop a suitable GUI using frameworks for easy use.
+- Develop a suitable GUI using frameworks that are easy to use.
 ## References
 - NASA's NEO dataset: https://www.kaggle.com/datasets/ivansher/nasa-nearest-earth-objects-1910-2024/data
 - Scikit-learn Documentation: https://scikit-learn.org/stable/
