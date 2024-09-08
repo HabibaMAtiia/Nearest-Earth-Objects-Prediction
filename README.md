@@ -30,3 +30,5 @@ Dataset contains many features includes:
 - Examined data ranges with box plots between features and whether the NEO is hazardous.
 - Visualized data density with violin plots between features and target.
 - Examined features correlation matrix.
+## Feature Selection
+- We selected key features such as absolute_magnitude, relative_velocity and miss_distance for training, as these attributes are crucial in determining a NEO's potential hazard level.
