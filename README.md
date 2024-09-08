@@ -1,6 +1,8 @@
 # Nearest-Earth-Objects-Prediction
 ## Project Overview
 In this project, we analyze a real-world dataset tracking 338,199 Near-Earth Objects (NEOs) observed by NASA between 1910 and 2024. The goal is to develop a machine learning model that can accurately predict whether a NEO poses a potential hazard to Earth, as indicated by the "is_hazardous" classification. Accurately identifying dangerous NEOs is crucial for planetary defense and ensuring preparedness for potential threats. The project will involve data preprocessing, feature selection, and model training to classify NEOs based on their proximity and characteristics.
+## Problem Statement
+Our task is to predict whether a NEO is hazardous based on its characteristics. This classification is critical for planetary defense strategies.
 ## Dataset
 Dataset contains 338,200 records. Its features includes:
 1. neo_id: Unique Identifier for each Asteroid
