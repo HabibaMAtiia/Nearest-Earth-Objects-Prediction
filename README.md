@@ -32,3 +32,29 @@ Dataset contains many features includes:
 - Examined features correlation matrix.
 ## Feature Selection
 - We selected key features such as absolute_magnitude, relative_velocity and miss_distance for training, as these attributes are crucial in determining a NEO's potential hazard level.
+## Modeling Approach
+- We evaluated several classification algorithms:
+  - Random Forest
+  - Logistic Regression
+  - KNN
+  - XGBoost
+## Evaluation Metrics
+- We used the following metrics to evaluate model performance:
+  - Accuracy: Percentage of correctly predicted NEOs.
+  - Precision: Ability to identify hazardous NEOs without misclassifying non-hazardous ones.
+  - Recall: Sensitivity to identifying hazardous NEOs.
+  - F1-score: Harmonic mean of precision and recall.
+  - ROC
+## Results
+- The Random Forest model achieved the following performance:
+  - Accuracy: 92%
+  - Precision: 0.89
+  - Recall: 0.94
+  - F1-score: 0.91
+## Conclusion
+- The Random Forest model was able to accurately predict hazardous NEOs, making it a reliable model for planetary defense applications. Further tuning and data enrichment could improve the model's predictive power.
+## References
+NASA's NEO dataset: https://www.kaggle.com/datasets/ivansher/nasa-nearest-earth-objects-1910-2024/data
+Scikit-learn Documentation: https://scikit-learn.org/stable/
+XGBoost Documentation: https://xgboost.readthedocs.io/en/stable/
+
