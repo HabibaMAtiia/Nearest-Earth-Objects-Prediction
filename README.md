@@ -12,3 +12,8 @@ Dataset contains many features includes:
 7. relative_velocity: Velocity Relative to Earth in Kmph
 8. miss_distance: Distance in Kilometres missed
 9. is_hazardous: Boolean feature that shows whether asteroid is harmful or not
+## Objectives
+- Clean and preprocess the dataset.
+- Perform exploratory data analysis to gain insights into NEO characteristics.
+- Train and evaluate multiple machine learning models to classify NEOs as hazardous or non-hazardous.
+- Use evaluation metrics such as accuracy, precision, recall, and F1-score to assess model performance.
