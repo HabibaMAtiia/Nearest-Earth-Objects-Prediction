@@ -46,6 +46,7 @@ Dataset contains 338200 records. Its features includes:
   - Precision: Ability to identify hazardous NEOs without misclassifying non-hazardous ones.
   - Recall: Sensitivity to identifying hazardous NEOs.
   - F1-score: Harmonic mean of precision and recall.
+  - Learning Curve
   - ROC
   ## Model Optimization
   - Hyperparameters Tuning using RandomizedSearchCV to avoid model overfitting.
