@@ -50,17 +50,17 @@ Dataset contains 338,200 records. Its features includes:
   - Precision: Ability to identify hazardous NEOs without misclassifying non-hazardous ones.
   - Recall: Sensitivity to identifying hazardous NEOs.
   - F1-score: Harmonic mean of precision and recall.
-  - Learning Curve
+  - Learning Curve:  Helps in diagnosing whether your model is overfitting or underfitting.
   ## Model Optimization
   - Hyperparameters Tuning using RandomizedSearchCV to avoid model overfitting.
 ## Results
-- The Random Forest model achieved the following performance:
-  - Accuracy: 92%
-  - Precision: 0.89
-  - Recall: 0.94
+- The Voting Classifier model achieved the following performance:
+  - Accuracy: 92 %
+  - Precision: 0.92
+  - Recall: 0.91
   - F1-score: 0.91
 ## Conclusion
-- The Random Forest model was able to accurately predict hazardous NEOs, making it a reliable model for planetary defense applications. Further tuning and data enrichment could improve the model's predictive power.
+- The Voting Classifier model was able to accurately predict hazardous NEOs, making it a reliable model for planetary defense applications. Further tuning and data enrichment could improve the model's predictive power.
 ## Future Work
 - Explore deep learning approaches for enhanced performance.
 - Integrate real-time data for continuous model updates.
