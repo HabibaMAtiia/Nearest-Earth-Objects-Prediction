@@ -55,13 +55,13 @@ Dataset contains 338,200 records. Its features includes:
   ## Model Optimization
   - Hyperparameters Tuning using RandomizedSearchCV to avoid model overfitting.
 ## Results
-- The Voting Classifier model achieved the following performance:
-  - Accuracy: 92 %
-  - Precision: 0.92
-  - Recall: 0.91
-  - F1-score: 0.91
+- The K-Nearest Neighbor (KNN) model achieved the following performance:
+  - Accuracy: 95 %
+  - Precision: 0.95
+  - Recall: 0.94
+  - F1-score: 0.94
 ## Conclusion
-- The Voting Classifier model was able to accurately predict hazardous NEOs, making it a reliable model for planetary defense applications. Further tuning and data enrichment could improve the model's predictive power.
+- The K-Nearest Neighbor (KNN) model was able to accurately predict hazardous NEOs, making it a reliable model for planetary defense applications. Further tuning and data enrichment could improve the model's predictive power.
 ## Future Work
 - Explore deep learning approaches for enhanced performance.
 - Integrate real-time data for continuous model updates.
