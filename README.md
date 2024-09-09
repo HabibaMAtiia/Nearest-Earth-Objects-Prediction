@@ -51,6 +51,7 @@ Dataset contains 338,200 records. Its features includes:
   - Recall: Sensitivity to identifying hazardous NEOs.
   - F1-score: Harmonic mean of precision and recall.
   - Learning Curve:  Helps in diagnosing whether your model is overfitting or underfitting.
+  - AUC-ROC Curve: Visualize trade-offs between sensitivity and specificity, and provides a single value (AUC) to measure the overall model quality.
   ## Model Optimization
   - Hyperparameters Tuning using RandomizedSearchCV to avoid model overfitting.
 ## Results
