@@ -52,7 +52,7 @@ Dataset contains 338,200 records. Its features includes:
   - F1-score: Harmonic mean of precision and recall.
   - Learning Curve:  Helps in diagnosing whether your model is overfitting or underfitting.
   - AUC-ROC Curve: Visualize trade-offs between sensitivity and specificity, and provides a single value (AUC) to measure the overall model quality.
-  ## Model Optimization
+## Model Optimization
   - Hyperparameters Tuning using RandomizedSearchCV to avoid model overfitting.
 ## Results
 - The K-Nearest Neighbor (KNN) model achieved the following performance:
